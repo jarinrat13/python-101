@@ -1,6 +1,9 @@
 def format_strings(*args):
-    # Your implementation here
-    pass
+    result = ""
+    for i in args:
+        i = i.upper().replace(" ","-")
+        result += i
+    return result
 
 if __name__ == '__main__':
     result = format_strings("Hello", "world", "this", "is", "a", "test")

@@ -1,0 +1,4 @@
+with open("example.txt", "a") as file:
+    file.write("This line is appended.\n")
+    
+#สร้างต่อจากไฟล์เก่าที่มี

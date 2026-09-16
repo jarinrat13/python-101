@@ -1,6 +1,7 @@
 try:
     value = int("Enter a number: ")
     result = 10 / value
+    print(f"Result of division: {result}")
 except ValueError:
     print("Invalid input! Please enter a number.")
 except ZeroDivisionError:

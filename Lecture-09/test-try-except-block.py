@@ -1,5 +1,6 @@
 try:
-    x = 1 / 0
+    x = 10 / 0
+    print(f"Value of X: {x}")
 except ZeroDivisionError as e :
     print(f"Error: {e}")
     

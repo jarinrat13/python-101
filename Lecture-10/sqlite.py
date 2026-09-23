@@ -24,6 +24,6 @@ rows = cur.fetchall()
 
 print("Users okder than 28:")
 for row in rows:
-    print(f"ID: {row[0]}, Name: {row[1]}, Age: {roe[2]}, City: {row[3]}")
+    print(f"ID: {row[0]}, Name: {row[1]}, Age: {row[2]}, City: {row[3]}")
     
 conn.close()
